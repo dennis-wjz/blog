@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Dennis's Blog",
   description: "The harder you work, the luckier you get.",
+  base: '/blog', // 站点将部署到的base URL 默认为'/'
   srcDir: 'docs',
   themeConfig: {
     logo: {
