@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Dennis's Blog"
+  name: "<a href='https://github.com/dennis-wjz'>Dennis</a>'s Blog"
   text: "The harder you work, the luckier you get."
   tagline: Record personal thoughts, technology, and lifestyle.
   actions:
