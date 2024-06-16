@@ -26,15 +26,16 @@ export default defineConfig({
       { text: '⭐️ Me', link: '/me/' },
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/blog/': [
+        {
+          text: '平台思考',
+          items: [
+            { text: '小红书', link: '/blog/platform-thought/little-red-book' },
+          ]
+        }
+      ],
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dennis-wjz' }
