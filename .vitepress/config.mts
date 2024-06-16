@@ -35,6 +35,14 @@ export default defineConfig({
           ]
         }
       ],
+      '/read/': [
+        {
+          text: '创业',
+          items: [
+            { text: '低风险创业', link: '/read/business-startup/low-risk-entrepreneurship' },
+          ]
+        }
+      ],
     },
 
     socialLinks: [
