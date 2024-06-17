@@ -22,6 +22,7 @@ export default defineConfig({
       { text: '🧑🏻‍💻 Tech', link: '/tech/' },
       { text: '✍🏼 Blog', link: '/blog/' },
       { text: '📖 Read', link: '/read/' },
+      { text: '📚 Algorithms', link: '/algorithms/' },
       { text: '👋🏻 Life', link: '/life/' },
       { text: '⭐️ Me', link: '/me/' },
     ],
@@ -35,6 +36,7 @@ export default defineConfig({
           ]
         }
       ],
+      '/algorithms/': [],
       '/read/': [
         {
           text: '创业',
