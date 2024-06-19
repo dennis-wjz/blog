@@ -18,7 +18,7 @@ Data Structure and Algorithms
 
 常见的数据结构包括数组、链表、栈、队列、哈希表、堆、图、树等。
 
-![image.png](https://raw.githubusercontent.com/hua-bang/assert-store/master/20240305223816.png)
+![image.png](https://raw.githubusercontent.com/dennis-wjz/pic-go-assert-store/master/image/20240618.png)
 
 ## Algorithms
 
