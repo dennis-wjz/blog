@@ -36,7 +36,14 @@ export default defineConfig({
           ]
         }
       ],
-      '/algorithms/': [],
+      '/algorithms/': [
+        {
+          text: '算法',
+          items: [
+            { text: '算法概念', link: '/algorithms/algorithms/concept.md' },
+          ]
+        }
+      ],
       '/read/': [
         {
           text: '创业',
