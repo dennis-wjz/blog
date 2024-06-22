@@ -14,3 +14,12 @@ function tailRecur(n: number, res: number): number {
 }
 
 console.log(tailRecur(10, 0));
+
+// 递归树 (NOTE: 暂时没有很懂它的一个执行逻辑)  
+function fib(n: number): number {
+  if (n === 1 || n === 2) return n - 1;
+  const res = fib(n - 1) + fib(n - 2);
+  return res;
+}
+
+console.log(fib(10));
