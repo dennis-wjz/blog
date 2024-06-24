@@ -42,6 +42,12 @@ export default defineConfig({
           items: [
             { text: '算法概念', link: '/algorithms/algorithms/concept.md' },
           ]
+        },
+        {
+          text: '数据结构',
+          items: [
+            { text: '数据结构概念', link: '/algorithms/data-structure/concept.md' },
+          ]
         }
       ],
       '/read/': [
