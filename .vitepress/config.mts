@@ -38,17 +38,18 @@ export default defineConfig({
       ],
       '/algorithms/': [
         {
+          text: '数据结构',
+          items: [
+            { text: '数据结构概念', link: '/algorithms/data-structure/concept.md' },
+            { text: '数组', link: '/algorithms/data-structure/array.md' },
+          ]
+        },
+        {
           text: '算法',
           items: [
             { text: '算法概念', link: '/algorithms/algorithms/concept.md' },
           ]
         },
-        {
-          text: '数据结构',
-          items: [
-            { text: '数据结构概念', link: '/algorithms/data-structure/concept.md' },
-          ]
-        }
       ],
       '/read/': [
         {
