@@ -51,6 +51,12 @@ export default defineConfig({
             { text: '算法概念', link: '/algorithms/algorithms/concept.md' },
           ]
         },
+        {
+          text: '其他',
+          items: [
+            { text: '术语表', link: '/algorithms/other/terms-glossary.md' },
+          ]
+        },
       ],
       '/read/': [
         {
