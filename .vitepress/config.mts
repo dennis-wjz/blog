@@ -43,6 +43,7 @@ export default defineConfig({
             { text: '数据结构概念', link: '/algorithms/data-structure/concept.md' },
             { text: '数组', link: '/algorithms/data-structure/array.md' },
             { text: '链表', link: '/algorithms/data-structure/linked-list.md' },
+            { text: '栈', link: '/algorithms/data-structure/stack.md' },
           ]
         },
         {
