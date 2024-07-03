@@ -62,6 +62,12 @@ export default defineConfig({
       ],
       '/read/': [
         {
+          text: '个人成长',
+          items: [
+            { text: '认知觉醒', link: '/read/business-startup/low-risk-entrepreneurship' },
+          ]
+        },
+        {
           text: '创业',
           items: [
             { text: '低风险创业', link: '/read/business-startup/low-risk-entrepreneurship' },
