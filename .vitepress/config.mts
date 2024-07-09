@@ -45,6 +45,7 @@ export default defineConfig({
             { text: '链表', link: '/algorithms/data-structure/linked-list.md' },
             { text: '栈', link: '/algorithms/data-structure/stack.md' },
             { text: '队列', link: '/algorithms/data-structure/queue.md' },
+            { text: '哈希表', link: '/algorithms/data-structure/hash-table.md' },
           ]
         },
         {
