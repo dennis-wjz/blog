@@ -23,3 +23,5 @@ P.left = n2;
 n1.left = n2;
 
 console.log(n1);
+
+export default n1;
