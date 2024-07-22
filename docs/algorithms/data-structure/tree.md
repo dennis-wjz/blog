@@ -32,6 +32,8 @@ editLink: true
 
 ![](https://raw.githubusercontent.com/dennis-wjz/pic-go-assert-store/master/image/20240718105621.png)
 
+> **广度优先遍历通常借助“队列”来实现:**
+
 ```ts
 /* 层序遍历 */
 function levelOrder(root: TreeNode | null): number[] {
@@ -59,7 +61,43 @@ function levelOrder(root: TreeNode | null): number[] {
 
 ![](https://raw.githubusercontent.com/dennis-wjz/pic-go-assert-store/master/image/20240718135746.png)
 
-```ts
+> **深度优先搜索通常基于递归实现:**
 
+```ts
+/* 前序遍历 */
+function preOrder(root: TreeNode | null): void {
+  if (root === null) {
+    return;
+  }
+  // 访问优先级：根节点 -> 左子树 -> 右子树
+  list.push(root.val);
+  preOrder(root.left);
+  preOrder(root.right);
+}
+
+/* 中序遍历 */
+function inOrder(root: TreeNode | null): void {
+  if (root === null) {
+    return;
+  }
+  // 访问优先级：左子树 -> 根节点 -> 右子树
+  inOrder(root.left);
+  list.push(root.val);
+  inOrder(root.right);
+}
+
+/* 后序遍历 */
+function postOrder(root: TreeNode | null): void {
+  if (root === null) {
+    return;
+  }
+  // 访问优先级：左子树 -> 右子树 -> 根节点
+  postOrder(root.left);
+  postOrder(root.right);
+  list.push(root.val);
+}
 ```
 
+- 前序遍历：根节点→左子树→右子树
+- 中序遍历：左子树→根节点→右子树
+- 后序遍历：左子树→右子树→根节点
